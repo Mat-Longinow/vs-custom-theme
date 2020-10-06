@@ -1,0 +1,21 @@
+{
+    "name": "custom-theme",
+    "displayName": "Custom Theme",
+    "description": "Mat's custom theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Custom Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Custom Theme-color-theme.json"
+            }
+        ]
+    }
+}
